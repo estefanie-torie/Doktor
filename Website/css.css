@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+@font-face {
+font-family: 'Myriad Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
+}
+
+* {
+	margin: 0
+}
+
+body  {
+	background-image:url(bg2.jpg);
+
+	background-size:cover;
+	
+	
+}
+
+a {
+	text-decoration:none;
+	color: #2f6a8a;
+}
+
+a:hover {
+	color: #a4194a;
+	
+}
+	
+@media (min-width: 1305px) {
+
+#capa img {
+	float:left;
+	width: 550px;
+	height: 545px;
+	margin-top: 50px;
+	margin-left: 50px;
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+#texto p {
+	font-family: Myriad Pro Bold;
+	font-size: 30px;
+	float:right;
+	margin-top: 210px;
+	margin-right: 250px;
+	color: #2f6a8a;
+		
+}
+
+.fb img{
+	margin-top:23px;
+	margin-left: 20px;
+	width: 100px;
+	height:106px;
+}
+
+#texto .fb p {
+	font-family: Myriad Pro Bold;
+	font-size: 55px;
+	margin-right: 140px;
+	margin-top:41px;
+	
+	color: #2f6a8a;
+	
+}
+	
+}
+
+@media  (min-width: 1206px) and (max-width: 1305px) {
+
+#capa img {
+	float:left;
+	width: 400px;
+	height: 396px;
+	margin-top: 101px;
+	margin-left: 106px;
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+#texto p {
+	font-family: Myriad Pro Bold;
+	font-size: 30px;
+	float:right;
+	margin-top: 210px;
+	margin-right: 250px;
+	color: #2f6a8a;
+		
+}
+
+.fb img{
+	margin-top:23px;
+	margin-left: 20px;
+	width: 100px;
+	height:106px;
+}
+
+#texto .fb p {
+	font-family: Myriad Pro Bold;
+	font-size: 55px;
+	margin-right: 140px;
+	margin-top:41px;
+	
+	color: #2f6a8a;
+	
+}
+	
+}
+
+@media  (min-width: 987px) and (max-width: 1205px) {
+
+#capa img {
+	float:left;
+	width: 600px;
+	height: 595px;
+	margin-top: 50px;
+	margin-left: 5%;
+	
+}
+
+#texto p {
+	font-family: Myriad Pro Bold;
+	font-size: 22px;
+	float:right;
+	margin-top: 62px;
+	margin-right: 5x;
+	color: #2f6a8a;
+		
+}
+
+.fb img{
+	margin-top:23px;
+	margin-left: 20px;
+	width: 100px;
+	height:106px;
+}
+
+#texto .fb p {
+	font-family: Myriad Pro Bold;
+	font-size: 33px;
+	margin-right: 63px;
+	margin-top:41px;
+	
+	color: #2f6a8a;
+	
+}
+	
+}
+
+@media  (max-width: 986px) and (min-width: 631px) {
+
+#capa img {
+	float:left;
+	width: 600px;
+	height: 595px;
+	margin-top: 50px;
+	margin-left: 5%;
+	
+}
+
+#texto p {
+	font-family: Myriad Pro Bold;
+	font-size: 22px;
+	float:right;
+	margin-top: 62px;
+	margin-right: 5px;
+	color: #2f6a8a;
+		
+}
+
+.fb img{
+	margin-top:23px;
+	margin-left: 20px;
+	width: 100px;
+	height:106px;
+	float:right;
+}
+
+#texto .fb p {
+	font-family: Myriad Pro Bold;
+	font-size: 33px;
+	margin-right: 63px;
+	margin-top:41px;
+	
+	color: #2f6a8a;
+	
+}
+	
+}
+
+@media  (max-width: 630px) {
+
+#capa img {
+	float:left;
+	width: 300px;
+	height: 297px;
+	margin-top: 50px;
+	margin-left: 5%;
+	
+}
+
+#texto p {
+	font-family: Myriad Pro Bold;
+	font-size: 19px;
+	float:right;
+	margin-top: 62px;
+	margin-right: 5px;
+	color: #2f6a8a;
+		
+}
+
+.fb img{
+	margin-top:23px;
+	margin-left: 20px;
+	width: 50px;
+	height:52px;
+	float:right;
+}
+
+#texto .fb p {
+	font-family: Myriad Pro Bold;
+	font-size: 25px;
+	margin-right: 05px;
+	margin-top:62px;
+	
+	color: #2f6a8a;
+	
+}
+	
+}
